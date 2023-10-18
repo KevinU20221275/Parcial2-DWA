@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --bs-yellow: #a5915fbe;
+    --bs-gray-dark: #242a20;
+    --bs-warning: #91731c;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-dark: #212529;
+    --bs-warning-hover-btn: #775c0a;
+    --bs-warning-hover-link: #775c0a;
+}
+
+body{
+    background-color: var(--bs-dark);
+}
+
+/* Estilos de botones */
+.btn {
+    background-color: var(--bs-warning);
+    border: none;
+    color: var(--bs-dark);
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: var(--bs-warning-hover-btn);
+    color: var(--bs-dark);
+}
+
+/* Estilo del navbar */
+.navbar {
+    background-color: var(--bs-dark);
+}
+.navbar .navbar-brand:hover{
+    color: var(--bs-warning-hover-link);
+}
+.navbar .nav-item .nav-link:hover {
+    color: var(--bs-warning-hover-link);
+}
+
+
+/* Estilos del carousel */
+.carousel {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilos de los contenedores */
+.container {
+    margin: 0 auto;
+}
+
+/* Estilos de las targetas */
+.card {
+    background-color: #111;
+    color: #eee;
+}
+.card-title{
+    color: #bb9010;
+}
+
+/* Estilos del formulario */
+form {
+    color: #000;
+    background-color: var(--bs-yellow);
+}
+form .form-text {
+    color: var(--bs-dark);
+}
+
+.form-control,.form-check-input {
+    background-color: var(--bs-dark);
+    border: none;
+}
+.form-control:focus{
+    background-color: var(--bs-dark);
+    box-shadow: 1px 1px 1px 1px var(--bs-warning-hover-btn);
+}
+.form-check-input:focus{
+    background-color: var(--bs-dark);
+    box-shadow: 1px 1px 1px 1px var(--bs-warning-hover-btn);
+}
+
+/* Estilos del footer */
+footer ul li a i {
+    font-size: 1.4rem;
+    transition: all 0.2s ease-in;
+}
+
+footer ul li:hover a i {
+    color: var(--bs-warning-hover-link);
+}
+  
+  
+
+
